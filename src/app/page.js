@@ -18,8 +18,8 @@ export default function Home() {
       <div className="shadow">
         <div className="mt-[18px] flex flex-col">
           <LoginForm />
-          <h2 class="w-full text-center border-b border-gray-200 leading-[0.1rem] my-6">
-            <span class="bg-white px-2 text-[#767676] text-[12px]">
+          <h2 className="w-full text-center border-b border-gray-200 leading-[0.1rem] my-6">
+            <span className="bg-white px-2 text-[#767676] text-[12px]">
               New to amazon?
             </span>
           </h2>
