@@ -9,7 +9,7 @@ export async function handleLogin(prevState,formdata){
         return {error:404}
     }
     else if(data){
-        if(emailPattern.test(data)){
+        if(emailPattern.test(data) || data){
             return{error:400}
         }
         else if(numberPattern.test(data)){
