@@ -13,7 +13,7 @@ const Dropdown = () => {
       {open === false ? (
         <button
           onClick={handleOpenDropdown}
-          className="flex items-center text-sky-600 hover:text-[#f0c14b] hover:text-decoration-1 hover:underline text-[13px]"
+          className="flex items-center text-sky-600 hover:text-[#f0c14b] hover:text-decoration-1 hover:underline text-[15px] md:text-[13px]"
         >
           <ChevronRight className="h-[10px] w-[10px] text-black mr-2" />
           Need help?
@@ -22,13 +22,13 @@ const Dropdown = () => {
         <>
           <button
             onClick={handleOpenDropdown}
-            className="flex items-center text-[#0066c0] hover:text-[#f0c14b] hover:text-decoration-1 hover:underline text-[13px]"
+            className="flex items-center text-[#0066c0] hover:text-[#f0c14b] hover:text-decoration-1 hover:underline text-[15px] md:text-[13px]"
           >
             <ChevronDown className="h-[10px] w-[10px] text-black mr-2" />
             Need help?
           </button>
           <div className="flex flex-col ml-[18px]">
-            <span className="text-[13px]">
+            <span className="text-[15px] md:text-[13px]">
               <Link
                 className="inline-block text-[#0066c0] hover:text-[#f0c14b] hover:text-decoration-1 hover:underline"
                 href="/"
@@ -36,7 +36,7 @@ const Dropdown = () => {
                 Forgot your password?
               </Link>
             </span>
-            <span className="text-[13px]">
+            <span className="text-[15px] md:text-[13px]">
               <Link
                 className="inline-block text-[#0066c0] hover:text-[#f0c14b] hover:text-decoration-1 hover:underline"
                 href="/"

@@ -1,2 +1,2 @@
 "use client"
-export {ChevronRight} from "lucide-react"
+export {ChevronRight,Globe} from "lucide-react"
